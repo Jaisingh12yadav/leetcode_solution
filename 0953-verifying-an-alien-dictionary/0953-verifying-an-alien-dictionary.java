@@ -12,7 +12,7 @@ class Solution {
                 char c1 = w1.charAt(j);
                 char c2 = w2.charAt(j);
                 if (c1 != c2) {
-                    if (rank[c1 - 'a'] > rank[c2 - 'a']) {;
+                    if (rank[c1 - 'a'] > rank[c2 - 'a']) {
                         return false;
                     }
                     break;
