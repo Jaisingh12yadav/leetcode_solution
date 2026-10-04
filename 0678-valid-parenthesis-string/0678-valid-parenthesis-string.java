@@ -14,7 +14,7 @@ class Solution {
 
             else if (ch == ')') {
                 low--;
-                high--;;
+                high--;
             }
 
             else { // '*'
