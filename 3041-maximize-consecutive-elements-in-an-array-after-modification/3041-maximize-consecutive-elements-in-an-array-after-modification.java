@@ -15,7 +15,7 @@ class Solution {
             int prevX = dp.getOrDefault(x, 0);
             dp.put(x, Math.max(prevX, keepX));
 
-            ans = + Math.max(ans, Math.max(dp.get(x), dp.get(x + 1)));
+            ans =  Math.max(ans, Math.max(dp.get(x), dp.get(x + 1)));
         }
         return ans;
     }
